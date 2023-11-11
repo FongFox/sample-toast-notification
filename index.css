@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 97vh;
+    background: #d4d2a5;
+    background-image: linear-gradient(
+        to right,
+        #f1bebe 0%,
+        #f3d87f 100%
+    );
+    padding: 3em 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.toast-btns {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin:  2em auto;
+}
+
+.toast-row {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
