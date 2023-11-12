@@ -9,27 +9,28 @@
         rel="stylesheet"
         href= 
 "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  
-    <script src="index.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Toast Notification</h1>
         <div class="toast-btns">
             <div class="toast-row">
-                <button type="button" class="primary-btn" onclick="handleClicking(1)">
+                <button type="button" class="custom-toast success-toast" onclick="handleClicking(1)">
                     Press me!
                 </button>
-                <button type="button" class="danger-btn" onclick="handleClicking(2)">
+                <button type="button" class="custom-toast danger-toast" onclick="handleClicking(2)">
                     Don't Press!
                 </button>
-                <button type="button" class="alert-btn" onclick="handleClicking(3)">
+                <button type="button" class="custom-toast warning-toast" onclick="handleClicking(3)">
                     :>>
                 </button>
-                <button type="button" class="success-btn" onclick="handleClicking(4)">
+                <button type="button" class="custom-toast info-toast" onclick="handleClicking(4)">
                     About this
                 </button>
             </div>
         </div>
     </div>
+    <div id="toast-overlay" class="toast-overlay"></div>
+    <script src="index.js"></script>
 </body>
 </html>
